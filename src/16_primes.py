@@ -3,7 +3,8 @@ import os
 
 primes_list = []
 number = ''
-message = "\n-- Input a number to see if it's prime. \n-- Compound Numbers will be reduced to the nearest whole " \
+message = "\n-- Input a number to see if it's prime. \n" \
+          "-- Decimal Numbers will be reduced to the nearest whole " \
           "number. \n" \
           "-- Type 1 to reset.\n" \
           "-- Type 0 to exit. \n"
