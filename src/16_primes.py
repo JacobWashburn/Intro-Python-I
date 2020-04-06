@@ -13,7 +13,7 @@ message = "\n-- Input a number to see if it's prime. \n" \
 def clear():
     # This os command works on my computer but requires giving the terminal security
     # access which is not acceptable in most cases. I just wanted the functionality
-    # it gave. If it gives you trouble just comment out lines 10 & 11.
+    # it gave. If it gives you trouble just comment out lines 18 & 19.
 
     os.system(
         "osascript -e 'tell application \"System Events\" to keystroke \"k\" using command down'")
