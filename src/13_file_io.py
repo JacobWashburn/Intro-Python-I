@@ -13,7 +13,7 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 
 foo = open('./foo.txt', 'r')
 for line in foo:
-    print(line, end='')
+    print(line, end = '')
 foo.close()
 
 # Open up a file called "bar.txt" (which doesn't exist yet) for
@@ -30,4 +30,4 @@ bar.close()
 print('')
 foobar = open('./bar.txt', 'r')
 for line in foobar:
-    print(line, end='')
+    print(line, end = '')

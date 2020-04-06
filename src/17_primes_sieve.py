@@ -6,8 +6,12 @@ primes = []
 for num in initial:
     for i in range(2, num):
         if num % i == 0:
+            # initial.remove(num)
             break
     else:
         primes.append(num)
+# print(f'There are {len(initial)} prime numbers in {user_num}.')
+# print(initial)
+
 print(f'There are {len(primes)} prime numbers in {user_num}.')
 print(primes)

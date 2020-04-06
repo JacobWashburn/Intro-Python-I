@@ -16,7 +16,7 @@ def clear():
     # it gave. If it gives you trouble just comment out lines 18 & 19.
 
     os.system(
-        "osascript -e 'tell application \"System Events\" to keystroke \"k\" using command down'")
+            "osascript -e 'tell application \"System Events\" to keystroke \"k\" using command down'")
     print(message)
 
 

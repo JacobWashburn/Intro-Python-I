@@ -17,7 +17,7 @@ print('x is %s, y is %s, z is "%s"' % (x, y, z))
 # Use the 'format' string method to print the same thing
 
 print('x is {}, y is {}, z is "{}"'.format(x, y, z))
-print('x is {one}, y is {two}, z is "{three}"'.format(three=z, two=y, one=x))
+print('x is {one}, y is {two}, z is "{three}"'.format(three = z, two = y, one = x))
 
 # Finally, print the same thing using an f-string
 
